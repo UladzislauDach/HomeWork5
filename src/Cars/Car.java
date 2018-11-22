@@ -17,7 +17,7 @@ public class Car {
     int price;
     String number;
 
-    static Car[] car = new Car[5];
+    //static Car[] car = new Car[5];
 
     public Car(int id, String brand, String model, int year, String color, int price, String number) {
         this.id = id;

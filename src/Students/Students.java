@@ -5,16 +5,15 @@ public class Students {
     private static String[] names1 = {"Dima", "Oleg", "Pasha", "Maksim", "Kosya"};
     private static String[] names2 = {"Jyk", "Levotsli", "Lyschik", "Buto", "Malarevich"};
     private static String[] names3 = {"Dmitrevich", "Olegovich", "Pavlovich", "Maksimovich", "Konstantinovich"};
-    private static int[] births = {1994, 1995, 1995, 1996, 1997};
+    private static int[] births = {1994, 1995, 1995, 1996, 1994};
     private static String[] addressed = {"Narocch", "Cherevki", "Myadel", "Svaksti", "Stepenovo"};
     private static String[] phones = {"234234", "324234", "23423423", "32454654", "54645654"};
-    private static String[] facultys = {"atf", "atf", "fes", "fes", "wtf"};
+    private static String[] facultys = {"atf", "fes", "atf", "fdk", "wtf"};
     private static int[] courses = {2, 1, 3, 2, 1};
     private static int[] groups = {34, 23, 34, 54, 23};
 
     private int id, birth, course, group;
-    private String name1, name2, name3, address, phone,
-            faculty;
+    private String name1, name2, name3, address, phone, faculty;
 
     public Students(int id, int birth, int course, int group, String name1, String name2, String name3,
                     String address, String phone, String faculty) {
@@ -56,7 +55,6 @@ public class Students {
     }
 
     public int getId() {
-
         return id;
     }
 

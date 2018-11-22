@@ -1,4 +1,4 @@
-package firstTask;
+package NamedEntity;
 
 public class NamedEntity {
     private String name;

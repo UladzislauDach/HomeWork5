@@ -1,4 +1,4 @@
-package thirdTask;
+package Patient;
 
 public class Patient {
     private static int[] ides = {1, 2, 3, 4, 5};
