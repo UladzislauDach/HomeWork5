@@ -1,4 +1,4 @@
-package secondTask;
+package Students;
 
 public class Students {
     private static int[] ides = {1, 2, 3, 4, 5};
@@ -8,7 +8,7 @@ public class Students {
     private static int[] births = {1994, 1995, 1995, 1996, 1994};
     private static String[] addressed = {"Narocch", "Cherevki", "Myadel", "Svaksti", "Stepenovo"};
     private static String[] phones = {"234234", "324234", "23423423", "32454654", "54645654"};
-    private static String[] facultys = {"atf", "fes", "atf", "fdk", "wtf"};
+    private static String[] facultys = {"atf", "atf", "fes", "fdk", "wtf"};
     private static int[] courses = {2, 1, 3, 2, 1};
     private static int[] groups = {34, 23, 34, 54, 23};
 

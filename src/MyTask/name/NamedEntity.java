@@ -9,8 +9,6 @@ public class NamedEntity {
     }
 
     public static NamedEntity[] getMass() {
-
-
         NamedEntity[] persons = new NamedEntity[5];
 
         for (int i = 0; i < persons.length; i++) {

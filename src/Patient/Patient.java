@@ -13,7 +13,7 @@ public class Patient {
     private int id, numbersMed;
     private String name1, name2, name3, address, phone, diagnos;
 
-    public Patient(int id, int numbersMed, String name1, String name2, String name3, String address,
+    Patient(int id, int numbersMed, String name1, String name2, String name3, String address,
                    String phone, String diagnos) {
         this.id = id;
         this.numbersMed = numbersMed;
